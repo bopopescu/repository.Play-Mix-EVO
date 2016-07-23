@@ -1418,9 +1418,9 @@ Note: Clicking on an image result will give you a list of images from the page t
 
 <addon id="repository.Play-Mix-EVO" name="Play-Mix-EVO Addon Repository" version="1.0.0" provider-name="Play-Mix-EVO">
 	<extension point="xbmc.addon.repository" name="Play-Mix-EVO Addon Repository">
-            <info compressed="false">https://raw.githubusercontent.com/grupoPlay-Mix-EVO/repository.Play-Mix-EVO/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/grupoPlay-Mix-EVO/repository.Play-Mix-EVO/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/grupoPlay-Mix-EVO/repository.Play-Mix-EVO/master/zips</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/kodiline/repository.Play-Mix-EVO/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/kodiline/repository.Play-Mix-EVO/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/kodiline/repository.Play-Mix-EVO/tree/master/zips</datadir>
 	</extension>
     <extension point="xbmc.addon.metadata">
 		<summary>repository.Play-Mix-EVO  </summary>
