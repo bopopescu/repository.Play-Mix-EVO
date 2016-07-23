@@ -594,6 +594,40 @@ Note: Clicking on an image result will give you a list of images from the page t
   </extension>
 </addon>
 
+<addon id="plugin.video.adulthideout" name="AdultHideout" version="0.5.0" provider-name="Vashiel">
+    <requires>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR red]XXX[/COLOR] Porn videos</summary>
+        <description>
+Internet [COLOR red]XXX Porn Video[COLOR white] Streams.
+
+[COLOR red][B]WARNING:[/B]
+[COLOR red]Only for adults[/COLOR]
+
+[COLOR white]Github:
+https://github.com/Vashiel/repository.adulthideout
+
+Email:
+adulthideout@yandex.com[/COLOR]
+
+		</description>
+		<disclaimer>
+		</disclaimer>
+		<platform>all</platform>
+		<license>http://www.gnu.org/licenses/</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<mainsource>https://github.com/Vashiel/repository.adulthideout</mainsource>
+		<source></source>
+    </extension>
+</addon>
+
 <addon id="plugin.video.all.iptv.infantil" name="[COLOR red]All[COLOR blue]Iptv[COLOR lime]soloinfantil.[/COLOR]" version="1.0.1" provider-name="[COLOR blue]PLAY ON IPTV[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -666,6 +700,106 @@ Note: Clicking on an image result will give you a list of images from the page t
   <extension point="xbmc.addon.metadata">
     <summary>Basado en LivestreamsPro</summary>
     <description>Catoal</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.CHAMPIONS LEAGUE  Y LA LIGA"
+       name="CHAMPIONS LEAGUE  Y LA LIGA"
+       version="2.0.0"
+       provider-name="CHAMPIONS LEAGUE  Y LA LIGA">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> Partidos transmitidos desde otras plataformas</summary>
+    <description lang="en">Suscribete a mi canal TV ONLINE 2016, no me hago responsable del uso de este add-on gracias.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Chicago"
+       name="[COLOR red]Chicago[/COLOR]"
+	   version="3.0.5"
+	   provider-name="Luis Serna">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red]Chicago[/COLOR]Tu mejor Opcion en entretenimiento</summary>
+<description lang="en">[COLOR red]Chicago[/COLOR] Addon Latino que recopila Canales transmitidos por internet, tratando de traerte el mejor entretenimiento televisivo en espanol e ingles,facebook #[COLOR steelblue]https://www.facebook.com/groups/lovechicago[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.colombiatv"
+       name="ColombiaTV"
+       version="1.3.0"
+       provider-name="Wiiego">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+    <import addon="script.common.plugin.cache" version="2.5.1" />
+    <import addon="script.module.parsedom" version="2.5.1" />
+    <import addon="script.module.simple.downloader" version="1.9.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">ColombiaTV</summary>
+    <description lang="en">ColombiaTV is the best addon to watch the main TV Channels from Colombia</description>
+    <description lang="es">ColombiaTV es el mejor addon para ver los principales canales de Televisión de Colombia</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Compus1286" name="Compus1286" version="b.2.0" provider-name="Compus1286 Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+    <import addon="plugin.video.youtube" />
+	<import addon="script.module.youtube.dl" optional="true"/>
+	<import addon="plugin.video.SportsDevil" optional="true"/>
+	<import addon="plugin.video.p2p-streams" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Peliculas y series en audio latino</summary>
+    <description lang="en">Compus1286</description>
+    <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
@@ -937,11 +1071,11 @@ Note: Clicking on an image result will give you a list of images from the page t
   </extension>
 </addon>
 
-<addon id="plugin.video.live.Kodiline tv"
-       name="[COLOR red][/COLOR]"
+<addon id="plugin.video.latinosvip"
+       name="[B][I][COLOR silver]TELEVISION VIP[/COLOR][/I][/B]"
        version="1.0.0"
-       provider-name="KODILINE007">
-  <requires>
+       provider-name="Freeworld Channel">
+   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -952,23 +1086,22 @@ Note: Clicking on an image result will give you a list of images from the page t
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.livestreamer" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>live.Kodiline tv- shamelessly forked from livestreams but added many thinks</summary>
-    <description>[COLOR gold]Burn[COLOR silver]Iptv[COLOR gold](DISEÑADO,,ORGANIZADO,REVISADO,)
-                 [/COLOR]KODILINE007</description>
+    <summary>[COLOR blue]based on livestreamspro[/COLOR][COLOR red]by Shani[/COLOR]</summary>
+    <description>[COLOR red]Ejoy new Addon[/COLOR][COLOR blue]LATINOS-VIP.[/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.live.streamspro"
-       name="LiveStreamsPro"
-       version="2.4.4"
-       provider-name="Shani">
+<addon id="plugin.video.matrix"
+       name="Matrix"
+       version="0.0.1"
+       provider-name="Developers Groups">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -976,34 +1109,17 @@ Note: Clicking on an image result will give you a list of images from the page t
     <import addon="script.module.beautifulsoup4" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
     <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="plugin.video.youtube" />
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>livestreamspro- shamelessly forked from livestreams but added many thinks</summary>
-    <description>
-        In addition to what livestreams allowed you to do, you can now,
-        1. call regex in regex,
-        2. multiple regex in page, regex in session, also htmlunescape responses
-        3. create session from one regex and pass onto next in line
-        4. save sessions to a file and open again later
-        5. write python code in .py file, put in the profile directory and then call from your regex.
-        6. use epoctime, guid and unpack as functions already defined.
-        7. Use it to post values to the pages to get the proper responses
-        8. support many headers, like origin, X-Requested-With
-        9. you can now append cookies in response and then read in regex using includeheaders
-        10. You can now link to another web url via your xml using externallink
-        11. support for google captcha, now you can show and then post the text
-
-    </description>
+    <summary>based on livestreamspro 2.0.1 by Shani</summary>
+    <description>Desarrollado Por BassFox, YulfiosTv, Wolf-Team, Vortech, Project-Tv, Punisher-Tv, DeanCl, Mazinger z, Eliplextv, deadpool</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -1027,6 +1143,108 @@ Note: Clicking on an image result will give you a list of images from the page t
 		<forum>http://forum.kodi.tv/showthread.php?tid=178798</forum>
 		<source>https://github.com/willforde/plugin.video.metalvideo</source>
 		<website>http://metalvideo.com</website>
+	</extension>
+</addon>
+
+<addon id="plugin.video.MiamiList"
+       name="MiamiList"
+       version="1.1.1"
+       provider-name="Doc Shadrach">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>based on livestreamspro 2.0.1 by Shani</summary>
+    <description>Lista de canales de MiamiList.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.MoneySports"
+       name="MoneySports"
+       version="1.0.1"
+       provider-name="SOME FINE FELLOW">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>
+
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.MundoLatino"
+       name="[COLOR yellow]MundoLatino[/COLOR]"
+       version="2.0.0"
+       provider-name="Mundo Latino">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ESPERO QUE DISFRUTES TODO LO QUE TENEMOS PARA OFRECERTE Y RECUERDA ES GRATIS</summary>
+    <description>
+CANALES RETRASMITIDOS POR INTERNET Y OTRAS PLATAFORMAS,MUNDO LATINO NO ES RESPONSABLE NI DUENO DE LOS CANALES QUE SE TRANSMITEN EN EL MISMO,ESTE ES UN ADD-ON COMPLETAMENTE GRATIS Y SE PROHIBE SU VENTA.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.neotv" name="[COLOR lime]N[/COLOR][COLOR blue]eo[/COLOR] [COLOR yellow]TV[/COLOR]" version="6.0.0" provider-name="Neo - Underground / Inside 4ndroid">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Neo TV</summary>
+		<description lang="en">IPTV add-on, based on original code by esxbr</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
 	</extension>
 </addon>
 
@@ -1086,6 +1304,32 @@ Note: Clicking on an image result will give you a list of images from the page t
     <platform>all</platform>
     <forum>forums.tvaddons.ag</forum>
 
+  </extension>
+</addon>
+
+<addon id="plugin.video.palcotv" name="PalcoTV" version="0.3.3" provider-name="Juarrox">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="plugin.video.youtube" optional="true"/>
+	<import addon="plugin.video.SportsDevil" optional="true"/>
+	<import addon="plugin.video.p2p-streams" optional="true"/>
+	<import addon="program.plexus" optional="true"/>
+	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="script.module.requests" />
+	<import addon="script.module.youtube.dl" optional="true"/>
+	<import addon="script.common.plugin.cache"/>
+    <import addon="script.module.m3u8" version="0.2.2"/>
+    <import addon="script.module.dateutil" version="2.4.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PalcoTV</summary>
+    <description lang="en">[COLOR lightblue][B]PalcoTV[/B][/COLOR] es un addon de Kodi que permite administrar contenidos multimedia del usuario.</description>
+    <disclaimer lang="en">[B]Este addon es un mero ejercicio de aprendizaje de programación Python y se distribuye sin contenidos.[/B] Utilízalo bajo tu responsabilidad. Su autor queda eximido de toda responsabilidad si este addon se distribuye con acceso a contenidos protegidos por derechos de autor sin el permiso de sus creadores.</disclaimer>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -1371,6 +1615,20 @@ Note: Clicking on an image result will give you a list of images from the page t
 	</extension>
 </addon>
 
+<addon id="repository.catoal" name="Catoal repository" version="1.0.0" provider-name="Catoal">
+	<extension point="xbmc.addon.repository" name="Catoal Repository">
+		<info compressed="false">http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml</info>
+		<checksum>http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/catoalkodi/repository.catoal/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Catoal Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.docshadrach" name="Doc Shadrach's Add-ons" version="1.0" provider-name="Doc Shadrach">
 	<extension point="xbmc.addon.repository" name="Doc Shadrach's Add-ons Repo 1.0">
 		<info compressed="false">http://github.com/XBMCSpot/docshadrach.repository/raw/master/addons.xml</info>
@@ -1382,6 +1640,33 @@ Note: Clicking on an image result will give you a list of images from the page t
 		<description>Visita el spot B75OYRJ de la app Spotbros para enterarte de las novedades.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.goodfellas" name="GoodFellas" version="1.1" provider-name="GoodFellas">
+	<extension point="xbmc.addon.repository" name="Good Fellas">
+		<info compressed="false">http://www.goodfellasteam.com/Plugins/addons.xml</info>
+		<checksum>http://www.goodfellasteam.com/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://www.goodfellasteam.com/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Welcome to the GoodFellas Repository where you will find all the Live Tv, Movies, and Documentaries</summary>
+		<description>The Best Live Tv and Movies addon</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.infadroid" name="Infadroid Boxes" version="1.0.1" provider-name="Infadroid Boxes">
+    <extension point="xbmc.addon.repository" name="Infadroid Repository">
+        <info>https://raw.githubusercontent.com/infadroidmx/infadroid/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/infadroidmx/infadroid/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/infadroidmx/infadroid/raw/master/zips</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ALl the latest Infadroid Add-ons</summary>
+        <description>Infadroid Add-ons</description>
+        <disclaimer>General Disclaimer</disclaimer>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.mdrepo" name="Mucky Ducks Repo" version="1.0.2" provider-name="Mucky Duck">

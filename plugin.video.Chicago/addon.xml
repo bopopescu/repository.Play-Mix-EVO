@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Chicago" 
+       name="[COLOR red]Chicago[/COLOR]"
+	   version="3.0.5" 
+	   provider-name="Luis Serna">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red]Chicago[/COLOR]Tu mejor Opcion en entretenimiento</summary>
+<description lang="en">[COLOR red]Chicago[/COLOR] Addon Latino que recopila Canales transmitidos por internet, tratando de traerte el mejor entretenimiento televisivo en espanol e ingles,facebook #[COLOR steelblue]https://www.facebook.com/groups/lovechicago[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
