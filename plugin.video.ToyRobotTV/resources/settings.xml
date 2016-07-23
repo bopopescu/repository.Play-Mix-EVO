@@ -1,0 +1,22 @@
+<settings>
+	<category label="[COLOR red][B]ToyRobot TV[/B][/COLOR]">	
+		<setting label="[B]The Flash[/B]" type=""  id="online_0_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogMU9mUGJMckhVcFk" />
+		<setting label="[B]Legends of Tomorrow[/B]" type=""  id="online_1_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogTUwzV3FxOVg1Smc" />
+		<setting label="[B]Shadowhunters[/B]" type=""  id="online_2_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogMjA3cGdQVWZQVVU" />	
+		<setting label="[B]The X Files Season 10[/B]" type=""  id="online_3_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogWUwzaEZ6NXFoc00" />	
+		<setting label="[B]SuperStore[/B]" type=""  id="online_4_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogNW9WX0ozVU9mVVU" />	
+		<setting label="[B]The Shannara Chronicles[/B]" type=""  id="online_5_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogVWdpMy1xWi1GeEE" />
+		<setting label="[B]Game of Thrones[/B]" type=""  id="online_6_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogRmNxTHhaa1Q1aFk" />			
+		<setting label="[B]Gravity Falls[/B]" type=""  id="online_7_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogUm5QQmtFc1FFZzQ" />
+		<setting label="[B]Limitless[/B]" type=""  id="online_8_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogZTNTWGJMemN3UkE" />
+		<setting label="[B]Small Vill[/B]" type=""  id="online_9_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogbVBZYWZRQXc1dW8" />
+		<setting label="[B]The Big Bang Theory[/B]" type=""  id="online_10_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogTEw4TG4xQVBZRHc" />
+		<setting label="[B]Heroes Reborn[/B]" type=""  id="online_11_xml" default="https://drive.google.com/uc?export=download&id=0BzPgUBoC8aogamdENVY4TktRQzQ" />
+		<setting label="[B]Proximamente[/B]" type=""  id="online_12_xml" default="" />
+		<setting label="[B]Proximamente[/B]" type=""  id="online_13_xml" default="" />
+		<setting label="[B]Proximamente[/B]" type=""  id="online_14_xml" default="" />
+		<setting label="[B]Proximamente[/B]" type=""  id="online_15_xml" default="" />
+		<setting label="[B]Proximamente[/B]" type=""  id="online_16_xml" default="" />
+		<setting label="[B]Proximamente[/B]" type=""  id="online_17_xml" default="" />
+	</category>
+</settings>

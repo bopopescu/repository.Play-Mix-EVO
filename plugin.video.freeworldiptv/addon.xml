@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.freeworldiptv" name="[B][COLOR red]FREE[/COLOR][COLOR silver] IPTV[/COLOR][COLOR red] SERVICE[/COLOR][/B]" version="1.0.0" provider-name="[COLOR blue]Freeworld Entertainment Creations[/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">[COLOR red]FREEWORLD IPTV ADDON FOR LIVE STREAM TELEVISION[/COLOR]</summary>
+		<description lang="en">[COLOR lime]TO HELP SUPPORT THIS ADDON UPDATE PLEASE MAKE A DONATION AT[/COLOR][COLOR blue] https://paypal.me/LMoreno[/COLOR][CR][CR][COLOR silver]This Addon Contains a mixture of codes credits for Firephantom[/COLOR]</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+	</extension>
+</addon>

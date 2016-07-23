@@ -1,0 +1,5 @@
+name="cowboysrepoinstaller"
+url="use_local_file"
+img="local_kodi.jpg"
+fanart="local_kodi.jpg"
+description="Cowboys Repos Installer"

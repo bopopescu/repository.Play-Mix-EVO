@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Play-Mix-EVO" name="Play-Mix-EVO Addon Repository" version="1.0.0" provider-name="Play-Mix-EVO">
+	<extension point="xbmc.addon.repository" name="Play-Mix-EVO Addon Repository">
+            <info compressed="false">https://raw.githubusercontent.com/grupoPlay-Mix-EVO/repository.Play-Mix-EVO/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/grupoPlay-Mix-EVO/repository.Play-Mix-EVO/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/grupoPlay-Mix-EVO/repository.Play-Mix-EVO/master/zips</datadir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+		<summary>repository.Play-Mix-EVO  </summary>
+		<description>repository.Play-Mix-EVO .todo sobre Kodi.tutoriales.skin para kodi.YOU TUBE.Play-Mix-EVO </description>
+		<platform>all</platform>
+	</extension>
+</addon>

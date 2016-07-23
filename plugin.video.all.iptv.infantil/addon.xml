@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.all.iptv.infantil" name="[COLOR red]All[COLOR blue]Iptv[COLOR lime]soloinfantil.[/COLOR]" version="1.0.1" provider-name="[COLOR blue]PLAY ON IPTV[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en">[COLOR gold](DISEÑADO,ORGANIZADO,REVISADO,)[COLOR lime]BY PLAY ON IPTV [COLOR red]All[COLOR blue]Iptv[COLOR lime]soloinfantil.*
+        [COLOR lime]*TODO ESTE CONTENIDO ES FREE NO DONACIONES TODO EL CONTENIDO ES BASE DE ESTUDIO DE PLUGIN.
+		Y ESCRITURA XML PARA ,KODI,XBMC ,[COLOR silver]*DEL CANAL DE YOU TUBE PLAY ON IPTV [COLOR gold]TODAS LAS PELICULAS DE ESTAS LISTAS FUNCIONAN 
+		Y AN SIDO TODAS VERIFICADAS Y ORGANIZADAS POR MI EN ORDEN ALFABETICO
+		[COLOR lime]*QUE NO TE LO VENDAN NO DONACIONES
+		ENTRE TODOS, POR UN MUNDO MEJOR, MI PEQUEÑO GRANITO DE ARENA.
+		GRACIAS A TODOS Y DISFRUTAR. 
+		- ALL IPTV - ESTA DISEÑADO EN ORDEN ALFABETICO Y HAY CONTENIDO DE TODOS LOS IDIOMAS[/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>

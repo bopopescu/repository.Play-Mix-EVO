@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.raspfree" name="Rasp Free Repository" version="1.0" provider-name="Rasp TV">
+	<extension point="xbmc.addon.repository" name="Rasp Free Repository">
+		<info compressed="false">http://free.rasp.tv/addons.xml</info>
+		<checksum>http://free.rasp.tv/addons.xml.md5</checksum>
+		<datadir zip="true">http://free.rasp.tv/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

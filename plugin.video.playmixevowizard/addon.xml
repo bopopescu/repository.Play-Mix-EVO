@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.playmixevowizard" name="PLAY MIX EVO  Wizard" version="1.0.1" provider-name="PLAY MIX EVO  BUILDS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">PLAY MIX EVO  Wizard</summary>
+    <description lang="en">Install the best builds from playmixevowizard and[CR] others with this easy auto download,[CR] extract and reboot wizard from[CR] http://playweb.x10.mx/phpbb</description>
+    <platform>all</platform>
+  </extension>
+</addon>
